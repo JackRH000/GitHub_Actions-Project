@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Define a route and a view function
 @app.route('/')
-    def hello():
+def hello():
         return "Hello, Flask!"
 
 # Run the application (for development)
