@@ -9,7 +9,7 @@ The goal is to practice setting up CI/CD pipelines, running tests automatically,
 
 ### 1. Binary Search (Python)
 A simple implementation of a binary search algorithm with unit tests.  
-- **Workflow:** Runs `pytest` automatically on every push/pull request to verify correctness.
+- **Workflow:** Runs ` python -mvunittest` automatically on every push/pull request to unit_test_ci branch to verify correctness.
 
 ### 2. Web App Boilerplate (Python)
 A minimal Python web app scaffold (Flask/FastAPI placeholder).  
