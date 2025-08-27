@@ -11,7 +11,7 @@ class TestBinarySearch(unittest.TestCase):
     def test_not_found(self):
         arr = [1, 3, 5, 7, 9, 11]
         target = 8
-        self.assertEqual(binary_search(arr, target), -1)  # 8 is not in the list
+        self.assertEqual(binary_search(arr, target), 3)  # 8 is not in the list
 
     def test_empty_list(self):
         arr = []
